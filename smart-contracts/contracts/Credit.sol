@@ -503,8 +503,7 @@ contract Credit is Destructible {
     }
 
     /** @dev Fraund function
-      * @return
-      * calls the owner contract and marks the borrower as fraudster.
+      * @return calls the owner contract and marks the borrower as fraudster.
       */
     function fraud() internal returns (bool) {
         // call the owner address function with param borrower's address
